@@ -1,0 +1,48 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person",
+      "type": "com.xw.springboot.bean.person"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person.birth",
+      "type": "java.util.Date"
+    },
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person.boss",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person.dog",
+      "type": "com.xw.springboot.bean.Dog"
+    },
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person.last-name",
+      "description": "<bean class=\"Person\">\n     <property name=\"lastName=\"字面量\/${key}从环境变量、配置文件中获取值\/#{SpEL}\"><\/property\/>\n  <bean\/>",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person.lists",
+      "type": "java.util.List<java.lang.Object>"
+    },
+    {
+      "sourceType": "com.xw.springboot.bean.person",
+      "name": "person.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>"
+    }
+  ]
+}
