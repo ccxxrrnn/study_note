@@ -18,7 +18,7 @@ public class SpringBoot04WebRestcrudApplication {
 
     @Bean
     public ViewResolver myViewResolver(){
-    return new MyViewResolver();
+        return new MyViewResolver();
     }
 
     private static class MyViewResolver implements ViewResolver{
